@@ -1,3 +1,5 @@
-export default function registerFunc (props) {
-    
+function registerFunc (props) {
+    return 'REgister Success';
 }
+
+module.exports = { registerFunc }
